@@ -14,12 +14,12 @@ const Hero = () => {
             <p className="font-bold -ml-4">OPENAI ARTICLE SUMMARISER</p>
           </div>
         </MotionDiv>
-        <div className="items-center mr-10 hidden sm:flex ">
-          <button className="font-bold underline decoration-blue-600 hover:decoration-black py-2 px-3">
-            PORTFOLIO
-          </button>
-          <FaArrowRight className="-ml-2" />
-        </div>
+        <a href="https://cedekpoole.com" target="_blank">
+          <div className="items-center cursor-pointer mr-10 hidden sm:flex bg-black py-2 px-3 rounded-lg text-white hover:bg-blue-500 duration-500 hover:shadow-xl">
+            <p>PORTFOLIO</p>
+            <FaArrowRight className="ml-2" />
+          </div>
+        </a>
       </div>
       <div className="flex flex-col w-5/6 mx-auto">
         <MotionDiv duration={0.9} x={100}>
