@@ -1,14 +1,19 @@
-import Title from './assets/title.png'
+import Title from "./assets/title.png";
+import Hero from "./components/Hero";
+import Demo from "./components/Demo";
 
 const App = () => {
   return (
-    <div className="font-space w-5/6 mx-auto">
-        <div className="flex flex-col">
-            <img className="mx-auto" src={Title} alt="" />
-            <p className="gradient text-center italic text-sm sm:text-lg font-bold">SUMMARISE ANY ARTICLE IN AN INSTANT</p>
-        </div>
-    </div>
-  )
-}
+    <main>
+      <div>
+        <div className="bg-gradient" />
+      </div>
+      <div className="app font-space">
+        <Hero />
+        <Demo />
+      </div>
+    </main>
+  );
+};
 
-export default App
+export default App;
