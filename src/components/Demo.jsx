@@ -7,13 +7,15 @@ import { Dna } from "react-loader-spinner";
 import { useLazyGetSummaryQuery } from "../services/article";
 
 const Demo = () => {
- 
+  
   const [ article, setArticle ] = useState({
     url: '',
     summary: '',
   }) 
 
   const [allArticles, setAllArticles] = useState([]);
+
+  const [copy, setCopy] = useState("")
 
  // Custom hook to get the summary of the article using an API call
   const [getSummary, {error, isFetching}] = useLazyGetSummaryQuery()
@@ -38,6 +40,12 @@ const Demo = () => {
       setAllArticles(updatedAllArticles);
       localStorage.setItem('articles', JSON.stringify(updatedAllArticles));
     }
+  }
+
+  const handleCopy = (copyUrl) => {
+    setCopy(copyUrl);
+    navigator.clipboard.writeText(copyUrl);
+    setTimeout(() => setCopy(false), 2000)
   }
 // Render the component
   return (
@@ -74,8 +82,9 @@ const Demo = () => {
             onClick={() => setArticle(item)}
             className="flex items-center bg-white p-3 border shadow-lg border-gray-200 gap-3 rounded cursor-pointer">
               <div
-              className="w-7 h-7 rounded-full bg-white shadow-xl cursor-pointer backdrop-blur flex justify-center items-center">
-                <MdOutlineContentCopy />
+              className="w-7 h-7 rounded-full bg-white shadow-xl cursor-pointer backdrop-blur flex justify-center items-center"
+              onClick={() => handleCopy(item.url)}>
+                {copy === item.url ? <TiTick /> : <MdOutlineContentCopy />}
               </div>
               <p className="text-sm hover:text-blue-600">{item.url}</p>
             </div>
