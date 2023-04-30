@@ -33,7 +33,7 @@ Please visit the [deployed site](https://ai-article-summariser.netlify.app) on N
 
 Screenshot of the application: 
 
-![Article Summariser](./src/assets/images/homepage.png)
+![Article Summariser](./src/assets/screenshot.png)
 
 #### Developers
 
