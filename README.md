@@ -1,4 +1,4 @@
-# AI Article Summariser
+# SUMM△RISE: AI Article Summariser 
 
 Link to deployed site: [https://ai-article-summariser.netlify.app](https://ai-article-summariser.netlify.app)
 
