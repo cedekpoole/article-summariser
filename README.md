@@ -66,6 +66,9 @@ Steps:
 5. Submit a Pull request so that we can review your changes
 6. Be sure to merge the latest from "upstream" before making a pull request!
 
+## Credits 
+- A big thanks to [JS Mastery](https://www.youtube.com/watch?v=vpvtZZi5ZWk&t=183s&ab_channel=JavaScriptMastery) for the app idea!
+
 ---
 ## Questions
 If you have any questions, please contact me via email at: cameron.edek.poole@gmail.com
