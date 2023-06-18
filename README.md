@@ -14,6 +14,8 @@ In this project, we use Redux Toolkit for state management. Redux Toolkit is a l
 
 Overall, this project demonstrates the power of the Article Extractor and Summarizer API and how it can be easily integrated into a React.js project using Redux Toolkit. Whether you are a journalist, researcher, or just someone who wants to save time when reading articles, this API can help you quickly extract and summarize the main points of any text.
 
+Check out [my blog post](https://webdev-blog-cedekpoole.vercel.app/post/ai-article-summariser) about this project!
+
 #### Technologies Used
 This project was built using the following technologies:
 
@@ -65,6 +67,9 @@ Steps:
 4. Push your work back up to your fork
 5. Submit a Pull request so that we can review your changes
 6. Be sure to merge the latest from "upstream" before making a pull request!
+
+## Credits 
+- A big thanks to [JS Mastery](https://www.youtube.com/watch?v=vpvtZZi5ZWk&t=183s&ab_channel=JavaScriptMastery) for the app idea!
 
 ---
 ## Questions
