@@ -14,7 +14,7 @@ const Hero = () => {
             <p className="font-bold -ml-4">OPENAI ARTICLE SUMMARISER</p>
           </div>
         </MotionDiv>
-        <a href="https://www.cedekpoole.com" target="_blank">
+        <a href="https://www.cedekpoole.com " target="_blank">
           <div className="items-center cursor-pointer mr-10 hidden sm:flex bg-black py-2 px-3 rounded-lg text-white hover:bg-blue-500 duration-500 hover:shadow-xl">
             <p>PORTFOLIO</p>
             <FaArrowRight className="ml-2" />
